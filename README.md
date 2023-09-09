@@ -1,6 +1,19 @@
 # TerraformScript
 This is a terraform script that about how to launch an ec2 from scratch, That From VPC and EC2.
 
+## _**Installation**_
+
+1. Ensure you have Terraform installed on your local machine.
+2. Clone this repository to your local machine.
+
+## _**Configuration**_
+
+### Before running the Terraform code, you need to configure your AWS credentials. Follow the steps below:
+
+1. Sign in to the AWS Management Console.
+2. Go to the IAM service and create a new user with programmatic access.
+3. Assign the user appropriate permissions to create EC2 instances.
+4. Take note of the access key and secret key generated for the user.
 
 
 The provided Terraform configuration creates resources in AWS, specifically in the "us-west-2" region. It includes the following resources:
